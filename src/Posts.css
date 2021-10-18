@@ -1,0 +1,46 @@
+.post {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post__header {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+}
+
+.post__info {
+    margin-left: 1rem;
+    font-size: 12px;
+    /* flex: 0.9; */
+    color: grey;
+}
+
+.post__info h2 {
+    color: #000 !important;
+}
+
+.post__follow {
+    color: #0A66C2;
+}
+
+.post__header h2 {
+    color: #0A66C2;
+    font-weight: 500;
+}
+
+.post__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__buttons > .inputOption > h4 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.post__buttons > .inputOption:hover {
+    background-color: whitesmoke;
+}
